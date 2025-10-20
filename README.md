@@ -19,8 +19,8 @@ Antes de começar, tenha instalado:
 ## Estrutura e Serviços
 
 - db: PostgreSQL (porta 5432)
-- backend: Rails API (porta 3000)
-- frontend: React + Vite (porta 5173)
+- backend: Ruby (porta 3000)
+- frontend: React (porta 5173)
 
 ---
 
