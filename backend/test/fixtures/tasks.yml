@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  task_title: MyString
+  task_status: pending
+  todo: one
+
+two:
+  task_title: MyString
+  task_status: done
+  todo: two
