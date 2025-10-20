@@ -1,24 +1,51 @@
-# README
+## To‑Do List com Ruby on Rails + React
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este é um projeto de lista de tarefas com backend em Ruby on Rails e frontend em React. O ambiente está totalmente dockerizado para rodar com um único comando, usando PostgreSQL como banco de dados.
 
-Things you may want to cover:
+Quis focar em um projeto simples, mas funcional e com boa experiência de desenvolvimento: uma API clara, com frontend intuitivo e execução facilitada via Docker.
 
-* Ruby version
+---
 
-* System dependencies
+## Pré‑requisitos
 
-* Configuration
+Antes de começar, tenha instalado:
 
-* Database creation
+- Docker e Docker Compose
 
-* Database initialization
+> Não é necessário configurar Ruby, Node ou PostgreSQL localmente — os containers cuidam disso.
 
-* How to run the test suite
+---
 
-* Services (job queues, cache servers, search engines, etc.)
+## Estrutura e Serviços
 
-* Deployment instructions
+- db: PostgreSQL 15 (porta 5432)
+- backend: Rails API (porta 3000)
+- frontend: React + Vite (porta 5173)
 
-* ...
+---
+
+## Como rodar
+
+1) Clonar o repositório
+
+```bash
+git clone https://github.com/marianalinos/to-do-list-ruby-react.git
+cd to-do-list-ruby-react
+```
+
+2) Subir os containers
+
+```bash
+docker compose up --build
+```
+
+3) Acessos
+
+- Frontend: http://localhost:5173
+- Backend (API): http://localhost:3000/api
+
+---
+
+Obrigada por conferir o projeto! Agradeço previamente as possíveis sugestões de melhorias. Com mais tempo, gostaria de adicionar ao projeto:
+- Autenticação/login para usuários;
+- Colaboração entre os usuários, para que X possa colaborar na lista de Y. 
