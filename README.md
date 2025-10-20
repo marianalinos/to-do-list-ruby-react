@@ -46,6 +46,17 @@ docker compose up --build
 
 ---
 
+## Como finalizar o processo
+
+1) Basta rodar
+
+```bash
+docker compose down -v
+```
+Ele vai finalizar os processos e o `-v` vai resetar o volume em que ele foi criado. 
+
+---
+
 Obrigada por conferir o projeto! Agradeço previamente as possíveis sugestões de melhorias. Com mais tempo, gostaria de adicionar ao projeto:
 - Autenticação/login para usuários;
 - Colaboração entre os usuários, para que X possa colaborar na lista de Y. 
